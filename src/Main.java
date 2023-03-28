@@ -20,15 +20,15 @@ public class Main {
     }
     public static void task2 () {
         System.out.println("Задача 2");
-        byte temperature = 6;
+        byte temperature = 5;
         if (temperature > 5) {
             System.out.println("На улице " + temperature + " градусов(а). \nМожно идти без шапки.");
         }
-        if (temperature < 5) {
+         else if (temperature < 5) {
             System.out.println("На улице " + temperature + " градусов(а). \nНужно надеть шапку.");
         }
         else {
-            System.out.println("Температура равна " + temperature + " граудусов. \nМожно идти, как в шапке, так и без нее.");
+            System.out.println("Температура равна " + temperature + " граудусов(а). \nМожно идти, как в шапке, так и без нее.");
         }
     }
     public static void task3 () {

@@ -70,7 +70,7 @@ public class Main {
         else if (age >= 5 && age < 14 && withAdult) {
             System.out.println("Если возраст ребенка равен " + age + ", то ему можно кататься на аттракционе в сопровождении взрослого.");
         }
-        else if (age >= 5 && age < 14) {
+        else if (age >= 5 && age < 14 && !withAdult) {
             System.out.println("Без сопровождения взрослого кататься нельзя.");
         }
         else {
@@ -80,7 +80,7 @@ public class Main {
     public static void task6 () {
         System.out.println("Задача 6");
         short numberOfPersons = 71;
-        if (numberOfPersons < 60) {
+        if (numberOfPersons < 60 && numberOfPersons >= 0) {
             System.out.println("Вагоне есть сидячее место.");
         }
         else if (numberOfPersons >= 60 && numberOfPersons < 102) {
